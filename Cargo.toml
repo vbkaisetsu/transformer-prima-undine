@@ -1,0 +1,13 @@
+[package]
+name = "transformer"
+version = "0.1.0"
+authors = ["Koichi Akabe <vbkaisetsu@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+prima_undine = { path = "../prima-undine/prima_undine", features=["derive"] }
+prima_undine_contrib = { path = "../prima-undine/prima_undine_contrib" }
+prima_undine_opencl = { path = "../prima-undine-opencl" }
+rand = "0.7"
+rmp-serde = "0.14"
+serde = { version = "1.0", features = ["derive"] }
